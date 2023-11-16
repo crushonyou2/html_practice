@@ -1,0 +1,36 @@
+.search-books {
+  position: relative;
+  top: -30px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+  border-radius: 30px;
+}
+
+.search-books__bar {
+  width: 400px;
+  height: 45px;
+  border: none;
+  margin: 5px 15px;
+}
+
+.search-books__bar:focus {
+  outline: none;
+}
+
+.search-books__bar:focus::placeholder {
+  color: transparent;
+}
+
+.search-books__bar::placeholder {
+  opacity: 0.5;
+  padding: 20px;
+}
+
+.fa-magnifying-glass {
+  opacity: 0.2;
+  padding: 20px;
+}

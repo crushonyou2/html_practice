@@ -1,0 +1,11 @@
+.top-bar {
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px;
+  padding-bottom: 60px;
+}
+
+.top-bar__column {
+  font-weight: bold;
+}
