@@ -1,0 +1,13 @@
+.top-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-btn:hover i {
+  cursor: pointer;
+}
+
+.playscreen .fa-ellipsis-vertical {
+  opacity: 1;
+}

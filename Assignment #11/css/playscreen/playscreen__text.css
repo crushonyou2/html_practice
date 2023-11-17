@@ -1,0 +1,17 @@
+.playscreen__text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 65px;
+  margin-bottom: 45px;
+}
+
+.playscreen__text-title {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.playscreen__text-artist {
+  font-size: 14px;
+  opacity: 0.5;
+}

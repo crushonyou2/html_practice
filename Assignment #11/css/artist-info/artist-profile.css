@@ -1,0 +1,30 @@
+.artist-profile__photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 35px;
+}
+
+.artist-profile__photo img {
+  width: 95px;
+  height: 95px;
+  border-radius: 47px;
+  box-shadow: rgba(243, 96, 99, 0.3) 0px 8px 24px;
+  object-fit: cover;
+}
+
+.artist-profile__text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.artist-profile__title {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.artist-profile__subtitle {
+  font-size: 14px;
+  opacity: 0.5;
+}

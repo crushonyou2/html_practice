@@ -1,0 +1,10 @@
+.playscreen__cover {
+  margin-top: 75px;
+}
+
+.playscreen__cover img {
+  width: 250px;
+  height: 250px;
+  border-radius: 25px;
+  box-shadow: rgba(250, 184, 49, 0.6) 0px 8px 24px;
+}

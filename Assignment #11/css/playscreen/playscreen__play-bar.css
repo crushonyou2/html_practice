@@ -1,0 +1,42 @@
+.playscreen__play-bar {
+  display: flex;
+  flex-direction: column;
+  width: 305px;
+  margin-bottom: 55px;
+}
+
+.playscreen__play-bar-time {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  opacity: 0.4;
+  font-size: 14px;
+}
+
+.playscreen__play-bar-main {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.playscreen__play-bar-main div {
+  border-radius: 150px;
+}
+
+.playscreen__play-bar-main__before {
+  height: 5px;
+  width: 113px;
+  background-color: var(--main-color);
+}
+
+.playscreen__play-bar-main__after {
+  height: 5px;
+  width: 192px;
+  background-color: var(--main-color);
+  opacity: 0.1;
+}
+
+.fa-circle {
+  position: absolute;
+  left: 108px;
+}

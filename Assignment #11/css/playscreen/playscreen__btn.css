@@ -1,0 +1,29 @@
+.playscreen__btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.playscreen__btn button:not(:nth-child(3)) {
+  background-color: var(--white);
+  border: none;
+}
+
+.playscreen__play {
+  width: 75px;
+  height: 75px;
+  color: var(--white);
+  background-color: var(--main-color);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 50%;
+}
+
+.playscreen__repeat,
+.playscreen__shuffle {
+  opacity: 0.3;
+}
+
+.playscreen__btn button:hover {
+  cursor: pointer;
+}

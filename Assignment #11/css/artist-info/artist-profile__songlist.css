@@ -1,0 +1,85 @@
+.artist-profile__songlist {
+  overflow-y: scroll;
+  height: 300px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.artist-profile__songlist::-webkit-scrollbar {
+  display: none;
+}
+
+.artist-profile__songlist-cover {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.artist-profile__songlist-cover-selected {
+  filter: brightness(70%);
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.artist-profile__songlist ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.artist-profile__songlist-unselected {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  width: 300px;
+}
+
+.artist-profile__songlist-selected {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  width: 300px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 10px;
+}
+
+.artist-profile__songlist-text {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 75px;
+}
+
+.artist-profile__songlist-text span {
+  margin: 5px 0;
+}
+
+.artist-profile__songlist-artist {
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+.fa-circle-play {
+  position: absolute;
+  left: 20px;
+}
+
+.artist-profile__songlist li {
+  margin: 5px 0;
+}
+
+.fa-ellipsis-vertical {
+  opacity: 0.4;
+}
+
+.artist-profile__songlist li:hover {
+  cursor: pointer;
+}
