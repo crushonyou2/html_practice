@@ -1,0 +1,23 @@
+.spread-your-screen {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.spread-your-screen i {
+  margin: 40px;
+  color: rgba(255, 28, 73, 0.699);
+}
+
+.spread-your-screen span {
+  margin: 10px 0;
+}
+
+.spread-your-screen :nth-child(2) {
+  font-size: 20px;
+}
+
+.spread-your-screen :last-child {
+  font-size: 30px;
+}

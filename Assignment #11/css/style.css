@@ -1,12 +1,15 @@
 @import "top-btn.css";
+@import "spread-your-screen.css";
 
 /* artist-info : 1st page */
+@import "artist-info/artist-info.css";
 @import "artist-info/artist-info__btn.css";
 @import "artist-info/artist-profile.css";
 @import "artist-info/artist-profile__songlist.css";
 @import "artist-info/artist-profile__control-box.css";
 
 /* playscreen : 2nd page */
+@import "playscreen/playscreen.css";
 @import "playscreen/playscreen__cover.css";
 @import "playscreen/playscreen__text.css";
 @import "playscreen/playscreen__play-bar.css";
@@ -31,29 +34,15 @@ body {
   align-items: center;
 }
 
-.artist-info {
-  width: 50%;
-  height: 800px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: var(--padding-size);
-  background-color: var(--white);
-  border-radius: 50px;
-  margin: var(--margin-size);
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  position: relative;
+@media screen and (max-width: 1004px) {
+  .artist-info,
+  .playscreen {
+    display: none;
+  }
 }
 
-.playscreen {
-  width: 50%;
-  height: 800px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: var(--padding-size);
-  background-color: var(--white);
-  border-radius: 50px;
-  margin: var(--margin-size);
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+@media screen and (min-width: 1004px) {
+  .spread-your-screen {
+    display: none;
+  }
 }

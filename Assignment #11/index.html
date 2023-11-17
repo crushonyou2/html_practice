@@ -1,174 +1,156 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>You Are Awesome!</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <div class="artist-info">
-      <div class="top-btn">
-        <i class="fa-solid fa-arrow-left fa-lg"></i>
-        <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-      </div>
-      <div class="artist-profile">
-        <div class="artist-profile__photo">
-          <img
-            src="https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages116/v4/64/ec/f9/64ecf937-7071-ebcf-0f94-0a5a38e1bda1/127e5ce7-a7b2-4607-be63-421231bd98a1_ami-identity-d31a7440413bd74cc4f8deaa85535d15-2023-09-28T19-11-57.523Z_cropped.png/486x486bb.png"
-          />
-        </div>
-        <div class="artist-profile__text">
-          <span class="artist-profile__title">The Strokes</span>
-          <span class="artist-profile__subtitle"
-            >Indie Rock, Post-punk Revival</span
-          >
-        </div>
-      </div>
-      <div class="artist-info__btn">
-        <button class="artist-info__btn-shuffle">Shuffle</button>
-        <button class="artist-info__btn-heart">
-          <i class="fa-solid fa-heart fa-lg"></i>
-          124,925
-        </button>
-      </div>
-      <div class="artist-profile__songlist">
-        <ul>
-          <li class="artist-profile__songlist-unselected">
-            <img
-              class="artist-profile__songlist-cover"
-              src="https://upload.wikimedia.org/wikipedia/en/f/f8/The_Strokes_-_The_New_Abnormal.png"
-            />
-            <div class="artist-profile__songlist-text">
-              <span class="artist-profile__songlist-artist"> The Strokes </span>
-              <span class="artist-profile__songlist-title">
-                The Adults Are Talking
-              </span>
-            </div>
-            <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
-          </li>
-          <li class="artist-profile__songlist-selected">
-            <img
-              class="artist-profile__songlist-cover-selected"
-              src="https://i.namu.wiki/i/1t8GIJCPeBXYFrknLtSsofcX7KcrKyK1w-PcOL8G82W-8QcSXtfyWED5DrF4tXKerFXR2D8jSKlwq16BXu4w1g.webp"
-            />
-            <i
-              class="fa-regular fa-circle-play fa-2x"
-              style="color: #ffffff"
-            ></i>
-            <div class="artist-profile__songlist-text">
-              <span class="artist-profile__songlist-artist"> The Strokes </span>
-              <span class="artist-profile__songlist-title"> Last Nite </span>
-            </div>
-            <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
-          </li>
-          <li class="artist-profile__songlist-unselected">
-            <img
-              class="artist-profile__songlist-cover"
-              src="https://i.namu.wiki/i/1t8GIJCPeBXYFrknLtSsofcX7KcrKyK1w-PcOL8G82W-8QcSXtfyWED5DrF4tXKerFXR2D8jSKlwq16BXu4w1g.webp"
-            />
-            <div class="artist-profile__songlist-text">
-              <span class="artist-profile__songlist-artist"> The Strokes </span>
-              <span class="artist-profile__songlist-title"> Someday </span>
-            </div>
-            <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
-          </li>
-          <li class="artist-profile__songlist-unselected">
-            <img
-              class="artist-profile__songlist-cover"
-              src="https://i.scdn.co/image/ab67616d0000b2730f35726025e0f025da4c688f"
-            />
-            <div class="artist-profile__songlist-text">
-              <span class="artist-profile__songlist-artist"> The Strokes </span>
-              <span class="artist-profile__songlist-title"> Reptilia </span>
-            </div>
-            <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
-          </li>
-          <li class="artist-profile__songlist-unselected">
-            <img
-              class="artist-profile__songlist-cover"
-              src="https://upload.wikimedia.org/wikipedia/en/f/f8/The_Strokes_-_The_New_Abnormal.png"
-            />
-            <div class="artist-profile__songlist-text">
-              <span class="artist-profile__songlist-artist"> The Strokes </span>
-              <span class="artist-profile__songlist-title">
-                Eternal Summer
-              </span>
-            </div>
-            <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
-          </li>
-        </ul>
-      </div>
-      <div class="artist-profile__control-box">
-        <div class="artist-profile__control-box-text">
-          <div class="artist-profile__control-box-artist">
-            <span>The Strokes</span>
-          </div>
-          <div class="artist-profile__control-box-title">
-            <span>Last Nite</span>
-          </div>
-        </div>
-        <div class="artist-profile__control-box-btn">
-          <i class="fa-solid fa-backward-step fa-sm"></i>
-          <i class="fa-solid fa-pause fa-2x"></i>
-          <i class="fa-solid fa-forward-step fa-sm"></i>
-        </div>
-      </div>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>You Are Awesome!</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="artist-info">
+    <div class="top-btn">
+      <i class="fa-solid fa-arrow-left fa-lg"></i>
+      <i class="fa-solid fa-magnifying-glass fa-lg"></i>
     </div>
-    <div class="playscreen">
-      <div class="top-btn">
-        <i class="fa-solid fa-arrow-left fa-lg"></i>
-        <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
-      </div>
-      <div class="playscreen__cover">
+    <div class="artist-profile">
+      <div class="artist-profile__photo">
         <img
-          src="https://i.namu.wiki/i/1t8GIJCPeBXYFrknLtSsofcX7KcrKyK1w-PcOL8G82W-8QcSXtfyWED5DrF4tXKerFXR2D8jSKlwq16BXu4w1g.webp"
-        />
+          src="https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages116/v4/64/ec/f9/64ecf937-7071-ebcf-0f94-0a5a38e1bda1/127e5ce7-a7b2-4607-be63-421231bd98a1_ami-identity-d31a7440413bd74cc4f8deaa85535d15-2023-09-28T19-11-57.523Z_cropped.png/486x486bb.png" />
       </div>
-      <div class="playscreen__text">
-        <span class="playscreen__text-title">Last Nite</span>
-        <span class="playscreen__text-artist">The Strokes</span>
-      </div>
-      <div class="playscreen__play-bar">
-        <div class="playscreen__play-bar-time">
-          <span>1:12</span>
-          <span>3:14</span>
-        </div>
-        <div class="playscreen__play-bar-main">
-          <div class="playscreen__play-bar-main__before"></div>
-          <i class="fa-solid fa-circle fa-2xs"></i>
-          <div class="playscreen__play-bar-main__after"></div>
-        </div>
-      </div>
-      <div class="playscreen__btn">
-        <button class="playscreen__repeat">
-          <i class="fa-solid fa-repeat fa-lg"></i>
-        </button>
-        <button class="playscreen__backward">
-          <i class="fa-solid fa-backward-step fa-2x"></i>
-        </button>
-        <button class="playscreen__play">
-          <i class="fa-solid fa-play fa-2xl"></i>
-        </button>
-        <button class="playscreen__forward">
-          <i class="fa-solid fa-forward-step fa-2x"></i>
-        </button>
-        <button class="playscreen__shuffle">
-          <i class="fa-solid fa-shuffle fa-lg"></i>
-        </button>
+      <div class="artist-profile__text">
+        <span class="artist-profile__title">The Strokes</span>
+        <span class="artist-profile__subtitle">Indie Rock, Post-punk Revival</span>
       </div>
     </div>
-  </body>
-  <script
-    src="https://kit.fontawesome.com/2120c466e1.js"
-    crossorigin="anonymous"
-  ></script>
+    <div class="artist-info__btn">
+      <button class="artist-info__btn-shuffle">Shuffle</button>
+      <button class="artist-info__btn-heart">
+        <i class="fa-solid fa-heart fa-lg"></i>
+        124,925
+      </button>
+    </div>
+    <div class="artist-profile__songlist">
+      <ul>
+        <li class="artist-profile__songlist-unselected">
+          <img class="artist-profile__songlist-cover"
+            src="https://upload.wikimedia.org/wikipedia/en/f/f8/The_Strokes_-_The_New_Abnormal.png" />
+          <div class="artist-profile__songlist-text">
+            <span class="artist-profile__songlist-artist"> The Strokes </span>
+            <span class="artist-profile__songlist-title">
+              The Adults Are Talking
+            </span>
+          </div>
+          <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
+        </li>
+        <li class="artist-profile__songlist-selected">
+          <img class="artist-profile__songlist-cover-selected"
+            src="https://i.namu.wiki/i/1t8GIJCPeBXYFrknLtSsofcX7KcrKyK1w-PcOL8G82W-8QcSXtfyWED5DrF4tXKerFXR2D8jSKlwq16BXu4w1g.webp" />
+          <i class="fa-regular fa-circle-play fa-2x" style="color: #ffffff"></i>
+          <div class="artist-profile__songlist-text">
+            <span class="artist-profile__songlist-artist"> The Strokes </span>
+            <span class="artist-profile__songlist-title"> Last Nite </span>
+          </div>
+          <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
+        </li>
+        <li class="artist-profile__songlist-unselected">
+          <img class="artist-profile__songlist-cover"
+            src="https://i.namu.wiki/i/1t8GIJCPeBXYFrknLtSsofcX7KcrKyK1w-PcOL8G82W-8QcSXtfyWED5DrF4tXKerFXR2D8jSKlwq16BXu4w1g.webp" />
+          <div class="artist-profile__songlist-text">
+            <span class="artist-profile__songlist-artist"> The Strokes </span>
+            <span class="artist-profile__songlist-title"> Someday </span>
+          </div>
+          <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
+        </li>
+        <li class="artist-profile__songlist-unselected">
+          <img class="artist-profile__songlist-cover"
+            src="https://i.scdn.co/image/ab67616d0000b2730f35726025e0f025da4c688f" />
+          <div class="artist-profile__songlist-text">
+            <span class="artist-profile__songlist-artist"> The Strokes </span>
+            <span class="artist-profile__songlist-title"> Reptilia </span>
+          </div>
+          <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
+        </li>
+        <li class="artist-profile__songlist-unselected">
+          <img class="artist-profile__songlist-cover"
+            src="https://upload.wikimedia.org/wikipedia/en/f/f8/The_Strokes_-_The_New_Abnormal.png" />
+          <div class="artist-profile__songlist-text">
+            <span class="artist-profile__songlist-artist"> The Strokes </span>
+            <span class="artist-profile__songlist-title">
+              Eternal Summer
+            </span>
+          </div>
+          <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
+        </li>
+      </ul>
+    </div>
+    <div class="artist-profile__control-box">
+      <div class="artist-profile__control-box-text">
+        <div class="artist-profile__control-box-artist">
+          <span>The Strokes</span>
+        </div>
+        <div class="artist-profile__control-box-title">
+          <span>Last Nite</span>
+        </div>
+      </div>
+      <div class="artist-profile__control-box-btn">
+        <i class="fa-solid fa-backward-step fa-sm"></i>
+        <i class="fa-solid fa-pause fa-2x"></i>
+        <i class="fa-solid fa-forward-step fa-sm"></i>
+      </div>
+    </div>
+  </div>
+  <div class="playscreen">
+    <div class="top-btn">
+      <i class="fa-solid fa-arrow-left fa-lg"></i>
+      <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
+    </div>
+    <div class="playscreen__cover">
+      <img
+        src="https://i.namu.wiki/i/1t8GIJCPeBXYFrknLtSsofcX7KcrKyK1w-PcOL8G82W-8QcSXtfyWED5DrF4tXKerFXR2D8jSKlwq16BXu4w1g.webp" />
+    </div>
+    <div class="playscreen__text">
+      <span class="playscreen__text-title">Last Nite</span>
+      <span class="playscreen__text-artist">The Strokes</span>
+    </div>
+    <div class="playscreen__play-bar">
+      <div class="playscreen__play-bar-time">
+        <span>1:12</span>
+        <span>3:14</span>
+      </div>
+      <div class="playscreen__play-bar-main">
+        <div class="playscreen__play-bar-main__before"></div>
+        <i class="fa-solid fa-circle fa-2xs"></i>
+        <div class="playscreen__play-bar-main__after"></div>
+      </div>
+    </div>
+    <div class="playscreen__btn">
+      <button class="playscreen__repeat">
+        <i class="fa-solid fa-repeat fa-lg"></i>
+      </button>
+      <button class="playscreen__backward">
+        <i class="fa-solid fa-backward-step fa-2x"></i>
+      </button>
+      <button class="playscreen__play">
+        <i class="fa-solid fa-play fa-2xl"></i>
+      </button>
+      <button class="playscreen__forward">
+        <i class="fa-solid fa-forward-step fa-2x"></i>
+      </button>
+      <button class="playscreen__shuffle">
+        <i class="fa-solid fa-shuffle fa-lg"></i>
+      </button>
+    </div>
+  </div>
+  <div class="spread-your-screen">
+    <i class="fa-solid fa-circle-exclamation fa-beat fa-2xl"></i>
+    <span>화면 넓이가 좁습니다.</span>
+    <span>화면을 넓혀주세요!</span>
+  </div>
+</body>
+<script src="https://kit.fontawesome.com/2120c466e1.js" crossorigin="anonymous"></script>
+
 </html>

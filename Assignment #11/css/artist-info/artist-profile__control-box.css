@@ -41,3 +41,7 @@
 .artist-profile__control-box-btn i {
   margin-left: 20px;
 }
+
+.artist-profile__control-box-btn i:hover {
+  cursor: pointer;
+}
